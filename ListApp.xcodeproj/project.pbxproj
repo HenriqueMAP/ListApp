@@ -13,7 +13,7 @@
 		9784140F25A0CAC0008B5171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9784140E25A0CAC0008B5171 /* Assets.xcassets */; };
 		9784141225A0CAC0008B5171 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9784141125A0CAC0008B5171 /* Preview Assets.xcassets */; };
 		9784141525A0CAC0008B5171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9784141325A0CAC0008B5171 /* LaunchScreen.storyboard */; };
-		9784141E25A0E553008B5171 /* FolderImages in Resources */ = {isa = PBXBuildFile; fileRef = 9784141D25A0E553008B5171 /* FolderImages */; };
+		9784141E25A0E553008B5171 /* ListApp-Images in Resources */ = {isa = PBXBuildFile; fileRef = 9784141D25A0E553008B5171 /* ListApp-Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		9784141125A0CAC0008B5171 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9784141425A0CAC0008B5171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9784141625A0CAC0008B5171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9784141D25A0E553008B5171 /* FolderImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FolderImages; sourceTree = "<group>"; };
+		9784141D25A0E553008B5171 /* ListApp-Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ListApp-Images"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				9784140E25A0CAC0008B5171 /* Assets.xcassets */,
 				9784141325A0CAC0008B5171 /* LaunchScreen.storyboard */,
 				9784141625A0CAC0008B5171 /* Info.plist */,
-				9784141D25A0E553008B5171 /* FolderImages */,
+				9784141D25A0E553008B5171 /* ListApp-Images */,
 				9784141025A0CAC0008B5171 /* Preview Content */,
 			);
 			path = ListApp;
@@ -137,7 +137,7 @@
 			files = (
 				9784141525A0CAC0008B5171 /* LaunchScreen.storyboard in Resources */,
 				9784141225A0CAC0008B5171 /* Preview Assets.xcassets in Resources */,
-				9784141E25A0E553008B5171 /* FolderImages in Resources */,
+				9784141E25A0E553008B5171 /* ListApp-Images in Resources */,
 				9784140F25A0CAC0008B5171 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
