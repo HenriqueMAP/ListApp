@@ -8,24 +8,28 @@
 
 import Combine
 import SwiftUI
+import Foundation
 
 class DataSource: ObservableObject {
     let didChange = PassthroughSubject<Void, Never>()
     var pictures = [String]()
+    var size: Int
     
     init() {
         let fm = FileManager.default
-        let path = Bundle.main.resourcePath!
+        let path = Bundle.main.bundlePath
         let items = try! fm.contentsOfDirectory(atPath: path)
+        //fm.contentsOfDirectory(atPath: path)
         
             for item in items {
-                if item.hasPrefix("nsl") {
-                    pictures.append(item) }
+                if item.hasPrefix("nsl") && items.count > 0 {
+                    self.pictures.append(item) }
             }
-        
+    
         didChange.send(())
     }
 }
+
 
 struct DetailView: View {
     var selectedImage: String
@@ -48,8 +52,8 @@ struct ContentView: View {
     
     var body: some View {
             NavigationView{
+                
                 List(dataSource.pictures, id: \.self){ picture in
-                    Text(picture)
                     NavigationLink(destination: DetailView(selectedImage: picture)){
                         Text(picture)
                         }
